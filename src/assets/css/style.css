@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .ava-gradient-solar {
+    background: linear-gradient(#ff5800, #ffd700);
+  }
+
+  .ava-gradient-luminous {
+    background: linear-gradient(#ff5800, #ffb414);
+  }
+
+  .ava-gradient-glow {
+    background: linear-gradient(rgb(255, 88, 0), #b43c14);
+  }
+
+  .ava-gradient-flame {
+    background: linear-gradient(rgb(255, 88, 0), #c80000);
+  }
+
+  .ava-gradient-thermal {
+    background: linear-gradient(rgb(255, 88, 0), #970032);
+  }
+
+  .ava-gradient-aurora {
+    background: linear-gradient(rgb(255, 88, 0), #890078);
+  }
+}
